@@ -1,11 +1,11 @@
 package com.example.practice.components;
 
-public class FilterCoffee implements CoffeeType{
+public class TestBean implements CoffeeType {
     private String name;
     private int price;
     private String typeOfCoffee;
 
-    public FilterCoffee(String name, int price, String typeOfCoffee) {
+    public TestBean(String name, int price, String typeOfCoffee) {
         this.name = name;
         this.price = price;
         this.typeOfCoffee = typeOfCoffee;
@@ -38,5 +38,4 @@ public class FilterCoffee implements CoffeeType{
     public String getCoffee() {
         return "Coffee Name: " + name + ", Price: " + price + ", Type: " + typeOfCoffee;
     }
-
 }
