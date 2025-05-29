@@ -24,6 +24,6 @@ public class CoffeeService {
         if (coffee != null) {
             return coffee.getCoffee();
         }
-        return "Coffee type not found!";
+        return "Coffee type not founded!";
     }
 }
