@@ -29,4 +29,5 @@ public class CoffeeMachine {
         System.out.println("Test coffee machine is ready to brew!");
         return new TestBean("Latte", 4, "latte");
     }
+
 }

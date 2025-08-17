@@ -1,10 +1,10 @@
 package com.example.practice.services;
 
 import com.example.practice.components.CoffeeType;
-import com.example.practice.components.RequestScope;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
+import org.springframework.web.servlet.HandlerInterceptor;
 
 import java.util.Map;
 
